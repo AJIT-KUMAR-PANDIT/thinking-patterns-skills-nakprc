@@ -1,0 +1,18 @@
+{
+  "name": "nakprc",
+  "version": "1.0.0",
+  "description": "CLI tool to generate and scaffold thinking steps using a local LLM",
+  "main": "index.js",
+  "bin": {
+    "nakprc": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
