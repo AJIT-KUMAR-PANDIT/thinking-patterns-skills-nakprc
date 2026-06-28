@@ -9,7 +9,7 @@ async function loadOrCreateConfig() {
   ollamaUrl: 'http://localhost:11434/api/generate',
   
   // The default model to use
-  model: 'claude',
+  model: 'gemma3:1b-it-qat',
   
   // You can add more configurations here in the future
 };
